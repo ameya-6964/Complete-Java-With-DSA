@@ -7,6 +7,13 @@ public class HelloWorld {
         System.out.println(result);
         int result1 = multiplyTwoNumbers(22, 33);
         System.out.println(result1);
+
+        /*
+         * Hello World
+         * Hello User :)
+         * 55
+         * 726
+         */
     }
 
     public static void greet() {

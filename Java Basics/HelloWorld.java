@@ -5,7 +5,7 @@ public class HelloWorld {
         greet(); // Method Calling Statement
         int result = addTwoNumbers(22, 33);
         System.out.println(result);
-        int result1 = addTwoNumbers(22, 33);
+        int result1 = multiplyTwoNumbers(22, 33);
         System.out.println(result1);
     }
 

@@ -5,6 +5,8 @@ public class HelloWorld {
         greet(); // Method Calling Statement
         int result = addTwoNumbers(22, 33);
         System.out.println(result);
+        int result1 = addTwoNumbers(22, 33);
+        System.out.println(result1);
     }
 
     public static void greet() {
@@ -13,6 +15,11 @@ public class HelloWorld {
 
     public static int addTwoNumbers(int a, int b) {
         int c = a + b;
+        return c;
+    }
+
+    public static int multiplyTwoNumbers(int a, int b) {
+        int c = a * b;
         return c;
     }
 }
